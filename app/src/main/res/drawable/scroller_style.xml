@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:drawable="@drawable/scroll">
+        <shape
+            android:padding="2dp"
+            android:shape="rectangle" >
+            <size
+                android:height="50dp"
+                android:width="5dp" />
+        </shape>
+    </item>
+
+</layer-list>
+
+<!--
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/scroll"/>
+
+</selector>
+-->

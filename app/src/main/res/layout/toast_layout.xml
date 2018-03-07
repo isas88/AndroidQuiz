@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toast_layout"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    >
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    android:layout_margin="20dp"
+    android:padding="5dp"
+    android:background="@drawable/custom_layout"
+    android:theme="@style/AppTheme"
+    >
+    <FrameLayout
+        android:id="@+id/percent100"
+        android:layout_width="@dimen/percent_dimen"
+        android:layout_height="@dimen/percent_dimen"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginRight="@dimen/margin"
+        >
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/percent80"
+        android:layout_width="@dimen/percent_dimen"
+        android:layout_height="@dimen/percent_dimen"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginRight="@dimen/margin">
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/percent60"
+        android:layout_width="@dimen/percent_dimen"
+        android:layout_height="@dimen/percent_dimen"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginRight="@dimen/margin"
+        >
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/percent40"
+        android:layout_width="@dimen/percent_dimen"
+        android:layout_height="@dimen/percent_dimen"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginRight="@dimen/margin">
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/percent20"
+        android:layout_width="@dimen/percent_dimen"
+        android:layout_height="@dimen/percent_dimen"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginRight="@dimen/margin"
+        android:tooltipText="text">
+    </FrameLayout>
+
+</LinearLayout>
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/big_text_size"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="@dimen/margin"
+        android:textAlignment="center"
+        android:textStyle="bold"
+
+        />
+</LinearLayout>

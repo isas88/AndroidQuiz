@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_design"
+    tools:context="com.example.isas88.quiz.MainActivity"
+    android:scrollbarThumbVertical="@drawable/scrollbar_vertical_thumb"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text= "@string/title"
+        android:textSize="@dimen/big_text_size"
+        android:layout_marginBottom="@dimen/big_margin_top_bottom"
+        android:padding="@dimen/padding"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:backgroundTint="@color/bgLight"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Supported programming languages to develop android mobile applications ? "
+            android:textSize="@dimen/text_size"
+            android:padding="@dimen/padding"
+            android:layout_margin="@dimen/margin"
+            android:textColor="@color/quizColor"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose all that applies:"
+            android:textSize="@dimen/text_size"
+            android:padding="@dimen/padding"
+            android:layout_margin="@dimen/margin"
+            android:textColor="@color/quizColor"
+            android:textStyle="bold"
+            />
+
+        <CheckBox
+            android:id="@+id/java_checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Java"
+            android:textSize="@dimen/text_size"
+            android:padding="@dimen/padding"
+            android:textStyle="italic"
+            android:layout_margin="@dimen/margin"
+            android:textColor="@color/quizColor"
+            android:backgroundTint="@color/bgLight"
+            />
+
+        <CheckBox
+            android:id="@+id/cplusplus_checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="C++"
+            android:textSize="@dimen/text_size"
+            android:padding="@dimen/padding"
+            android:textStyle="italic"
+            android:layout_margin="@dimen/margin"
+            android:textColor="@color/quizColor"
+            android:backgroundTint="@color/bgLight"
+            />
+
+        <CheckBox
+            android:id="@+id/kotlin_checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kotlin"
+            android:textSize="@dimen/text_size"
+            android:padding="@dimen/padding"
+            android:textStyle="italic"
+            android:layout_margin="@dimen/margin"
+            android:textColor="@color/quizColor"
+            android:backgroundTint="@color/bgLight"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Is it possible to create an activity in Android without a user interface ?"
+            android:textSize="@dimen/text_size"
+            android:padding="@dimen/padding"
+            android:layout_margin="@dimen/margin"
+            android:textColor="@color/quizColor"
+            android:textStyle="bold"
+            />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/true_radiobutton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="True"
+                android:textSize="@dimen/text_size"
+                android:padding="@dimen/padding"
+                android:textStyle="italic"
+                android:layout_margin="@dimen/margin"
+                android:textColor="@color/quizColor"
+                android:backgroundTint="@color/bgLight"
+                />
+
+            <RadioButton
+                android:id="@+id/false_radiobutton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="False"
+                android:textSize="@dimen/text_size"
+                android:padding="@dimen/padding"
+                android:textStyle="italic"
+                android:layout_margin="@dimen/margin"
+                android:textColor="@color/quizColor"
+                android:backgroundTint="@color/bgLight"
+                />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. XML attribute of a button that invokes specified method when clicked"
+            android:textSize="@dimen/text_size"
+            android:padding="@dimen/padding"
+            android:layout_margin="@dimen/margin"
+            android:textColor="@color/quizColor"
+            android:textStyle="bold"
+            />
+        <EditText
+            android:id="@+id/quiz3_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" Type here"
+            android:textColorHint="@color/hint"
+            android:singleLine="true"
+            android:textSize="@dimen/text_size"
+            android:padding="@dimen/padding"
+            android:layout_margin="@dimen/margin"
+            android:textColor="@color/quizColor"
+            android:textStyle="italic"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Google suggested color in the material design for primary colors ? "
+            android:textSize="@dimen/text_size"
+            android:padding="@dimen/padding"
+            android:layout_margin="@dimen/margin"
+            android:textColor="@color/quizColor"
+            android:textStyle="bold"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/wrong900_radiobutton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="900"
+                android:textSize="@dimen/text_size"
+                android:padding="@dimen/padding"
+                android:textStyle="italic"
+                android:layout_margin="@dimen/margin"
+                android:textColor="@color/quizColor"
+                android:backgroundTint="@color/bgLight"
+                />
+
+            <RadioButton
+                android:id="@+id/correct500_radiobutton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="500"
+                android:textSize="@dimen/text_size"
+                android:padding="@dimen/padding"
+                android:textStyle="italic"
+                android:layout_margin="@dimen/margin"
+                android:textColor="@color/quizColor"
+                android:backgroundTint="@color/bgLight"
+                />
+
+            <RadioButton
+                android:id="@+id/wrong700_radiobutton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="700"
+                android:textSize="@dimen/text_size"
+                android:padding="@dimen/padding"
+                android:textStyle="italic"
+                android:layout_margin="@dimen/margin"
+                android:textColor="@color/quizColor"
+                android:backgroundTint="@color/bgLight"
+                />
+        </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Where is the default Apptheme defined ?"
+                android:textSize="@dimen/text_size"
+                android:padding="@dimen/padding"
+                android:layout_margin="@dimen/margin"
+                android:textColor="@color/quizColor"
+                android:textStyle="bold"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/colors_radiobutton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="colors.xml"
+                android:textSize="@dimen/text_size"
+                android:padding="@dimen/padding"
+                android:textStyle="italic"
+                android:layout_margin="@dimen/margin"
+                android:textColor="@color/quizColor"
+                android:backgroundTint="@color/bgLight"
+                />
+
+            <RadioButton
+                android:id="@+id/styles_radiobutton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="styles.xml"
+                android:textSize="@dimen/text_size"
+                android:padding="@dimen/padding"
+                android:textStyle="italic"
+                android:layout_margin="@dimen/margin"
+                android:textColor="@color/quizColor"
+                android:backgroundTint="@color/bgLight"
+                />
+            <RadioButton
+                android:id="@+id/strings_radiobutton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="strings.xml"
+                android:textSize="@dimen/text_size"
+                android:padding="@dimen/padding"
+                android:textStyle="italic"
+                android:layout_margin="@dimen/margin"
+                android:textColor="@color/quizColor"
+                android:backgroundTint="@color/bgLight"
+                />
+
+            <RadioButton
+                android:id="@+id/dimen_radiobutton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="dimen.xml"
+                android:textSize="@dimen/text_size"
+                android:padding="@dimen/padding"
+                android:textStyle="italic"
+                android:layout_margin="@dimen/margin"
+                android:textColor="@color/quizColor"
+                android:backgroundTint="@color/bgLight"
+                />
+        </RadioGroup>
+
+    </LinearLayout>
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Submit Quiz"
+            android:textSize="@dimen/text_size"
+            android:textStyle="italic"
+            android:textColor="@color/quizColor"
+            android:background="@drawable/bg_design"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/big_margin_top_bottom"
+            android:layout_marginBottom="@dimen/big_margin_top_bottom"
+            android:onClick="showResult"
+            />
+    </LinearLayout>
+
+</ScrollView>

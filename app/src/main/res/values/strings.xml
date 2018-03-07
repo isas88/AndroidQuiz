@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="title">Android Quiz</string>
+    <string name="scrollbar_text">Android Open Tutorials. Android Programming. Android Tutorials.
+        Android Examples. Android SQLite. Android Layouts, Menus, Action Bar, ViewPager. Image Gallery.
+        Data Storage. SharedPreferences, Internal and External Storage. ListView, GridView, RelativeLayout,
+        LinearLayout, Scrollbar, Spinner, Dialog, CAB, Styling, ImageView blink, TextSwitcher, Library Projects,
+        How to import Android Library Projects, Progress Bar, Animation, Android Tools and many more.</string>
+    >
+</resources>
